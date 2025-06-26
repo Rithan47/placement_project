@@ -2,8 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
 import { useNavigate } from 'react-router-dom';
-
-const API_URL = 'http://localhost:5000/api';
+import API_URL from './apiConfig';
 
 function UserRoomBooking() {
   const [availableRooms, setAvailableRooms] = useState([]);

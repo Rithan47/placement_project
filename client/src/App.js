@@ -16,8 +16,7 @@ import AdminRoomManagement from './AdminRoomManagement';
 import UserRoomBooking from './UserRoomBooking';
 import AdminDashboard from './AdminDashboard';
 import AdminMenu from './AdminMenu';
-
-const API_URL = 'http://localhost:5000/api';
+import API_URL from './apiConfig';
 
 function App() {
   return (

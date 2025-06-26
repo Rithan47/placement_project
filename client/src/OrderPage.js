@@ -2,8 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import './App.css';
-
-const API_URL = 'http://localhost:5000/api';
+import API_URL from './apiConfig';
 
 function OrderPage() {
   const [menu, setMenu] = useState([]);

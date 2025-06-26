@@ -2,8 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import './App.css';
-
-const API_URL = 'http://localhost:5000/api';
+import API_URL from './apiConfig';
 
 function AdminMenu() {
   const [menu, setMenu] = useState([]);

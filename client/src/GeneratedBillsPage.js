@@ -2,8 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import './App.css';
-
-const API_URL = 'http://localhost:5000/api';
+import API_URL from './apiConfig';
 
 function GeneratedBillsPage() {
   const [bills, setBills] = useState([]);
