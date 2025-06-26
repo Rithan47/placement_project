@@ -1212,7 +1212,7 @@
   align-items: center;
   justify-content: flex-end;
   min-width: 120px;
-  margin-right: 64px;
+  margin-right: 80px;
 }
 .admin-menu-container > .admin-header {
   display: flex;
